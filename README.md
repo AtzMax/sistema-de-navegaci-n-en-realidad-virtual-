@@ -1,12 +1,11 @@
-ESP32 + TTP223 en Caminadora (Control VR)
+# ESP32 + TTP223 en Caminadora (Control VR)
 
 Este proyecto utiliza una ESP32 y dos sensores táctiles TTP223 montados en una caminadora para controlar un escenario en Unreal Engine mediante emulación de teclado.
 
-🔹 Funcionamiento
+# Funcionamiento
 
 El usuario toca los sensores capacitivos para enviar señales binarias:
-
-  00 → No se mueve
+ 00 → No se mueve
   
   01 → Mover a la derecha
   
@@ -17,7 +16,7 @@ La ESP32 envía las señales a la PC y se mapean como teclas (ejemplo: A = izqui
 Compatible con testers de teclado online (ej: keyboard-test.space
 ) para verificar.
 
-🔹 Integración en caminadora
+# Integración en caminadora
 
 Alimentación: batería externa (powerbank) o toma de 5V de la caminadora.
 
@@ -31,7 +30,7 @@ En el piso o costados (control con los pies).
 
 Opcional: integrar sensor de velocidad de la banda (óptico o Hall) para sincronizar con el avatar.
 
-🔹 Hardware usado
+# Hardware usado
 
 ESP32
 
@@ -39,7 +38,7 @@ ESP32
 
 Fuente de 5V (powerbank o batería LiPo con regulador)
 
-🔹 Ideas futuras
+# Ideas futuras
 
 Añadir acelerómetro/giroscopio para más control en VR.
 
