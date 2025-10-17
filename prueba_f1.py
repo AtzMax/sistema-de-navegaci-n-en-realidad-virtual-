@@ -31,4 +31,3 @@ while True:
         keyboard.release(Key.left)
         keyboard.release(Key.right)
 
-#ESTE ES SOLO UN EJEMPLO
