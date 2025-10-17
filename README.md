@@ -10,6 +10,13 @@ El usuario toca los sensores capacitivos para enviar señales binarias:
  10 → Mover a la izquierda
  11 → No se mueve
 
+Esto se traduce en bits (0-3) por lo que se mapearía así: 
+•	"0" → nada (soltar teclas).
+•	"1" → derecha → tecla d.
+•	"2" → izquierda → tecla a.
+•	"3" → ambos → soltar teclas (tampoco hace nada).
+
+
 La ESP32 envía las señales a la PC y se mapean como teclas (ejemplo: A = izquierda, D = derecha).
 
 Compatible con testers de teclado online (ej: keyboard-test.space
